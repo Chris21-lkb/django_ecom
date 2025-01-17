@@ -22,9 +22,9 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="{% url 'home' %}">All Products</a></li>
                         <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="#!">Pc</a></li>
-                        <li><a class="dropdown-item" href="#!">Headset</a></li>
-                        <li><a class="dropdown-item" href="#!">Cell Phone</a></li>
+                        <li><a class="dropdown-item" href="{% url 'category' 'pc' %}">Pc</a></li>
+                        <li><a class="dropdown-item" href="{% url 'category' 'Headset' %}">Headset</a></li>
+                        <li><a class="dropdown-item" href="{% url 'category' 'Cell Phone' %}">Cell Phone</a></li>
                     </ul>
                 </li>
             </ul>
